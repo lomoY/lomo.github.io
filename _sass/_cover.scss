@@ -7,9 +7,15 @@ li,
 h1,
 h2,
 h3,
-p {
+p,
+a {
     padding: 0;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -34,7 +40,7 @@ body {
 }
 
 .lomo-role {
-	line-height: 40px;
+    line-height: 40px;
     font-size: 25px;
     position: relative;
     display: inline-block;
@@ -51,17 +57,16 @@ body {
     top: 10px;
 }
 
-
-
 .ul-wrap ul {
     height: 175px;
-    /*li高度*个数*/  
+    /*li高度*个数*/
     padding: 0;
     width: 130px;
     text-align: center;
     animation: 12s come-down infinite;
     margin-top: -215px;
 }
+
 .ul-wrap ul li {
     line-height: 30px;
     list-style: none;
@@ -71,37 +76,72 @@ body {
     0% {
         transform: translateY(0px);
     }
-    
     12.5% {
         transform: translateY(0px);
-    }/*控制li1*/
-    
+    }
+    /*控制li1*/
     25% {
         transform: translateY(33px);
     }
-    
     37.5% {
         transform: translateY(60px);
     }
-    
     50% {
         transform: translateY(91px);
     }
-    
     62.5% {
         transform: translateY(121px);
     }
-    
     75% {
         transform: translateY(151px);
     }
-    
     87.5% {
         transform: translateY(181px);
     }
-    
     100% {
         transform: translateY(210px);
     }
 }
 
+.sina-wb-icon {
+    background: url("/images/sina-weibo.png")
+}
+
+.lofter-icon {
+    background: url("/images/NetEase-lofter.png")
+}
+
+.link-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+}
+
+.cover-nav-1 {
+    position: absolute;
+    bottom: 70px;
+    width:400px;
+    left:50%;
+    text-align:center;
+    margin-left:-200px;
+    ul {
+        li {
+            display: inline-block;
+            margin-right:15px;
+        }
+        li:last-child{
+            margin-right:0;
+        }
+    }
+}
+
+.cover-nav-2 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    text-align: center;
+}

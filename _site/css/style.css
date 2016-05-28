@@ -7,9 +7,14 @@ li,
 h1,
 h2,
 h3,
-p {
+p,
+a {
   padding: 0;
   margin: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 body {
   background-color: black; }
@@ -77,3 +82,36 @@ body {
     transform: translateY(181px); }
   100% {
     transform: translateY(210px); } }
+.sina-wb-icon {
+  background: url("/images/sina-weibo.png"); }
+
+.lofter-icon {
+  background: url("/images/NetEase-lofter.png"); }
+
+.link-icon {
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-size: contain; }
+
+.cover-nav-1 {
+  position: absolute;
+  bottom: 70px;
+  width: 400px;
+  left: 50%;
+  text-align: center;
+  margin-left: -200px; }
+  .cover-nav-1 ul li {
+    display: inline-block;
+    margin-right: 15px; }
+  .cover-nav-1 ul li:last-child {
+    margin-right: 0; }
+
+.cover-nav-2 {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -200px;
+  width: 400px;
+  text-align: center; }
