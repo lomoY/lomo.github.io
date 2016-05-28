@@ -26,17 +26,20 @@
                     </ul>
                 </div>
             </div>
-            <p>我来自中国上海，你可以在这里找到一些有趣的照片、文章，和意想不到的事 :D</p>
+            <p>我来自中国上海，你可以在这里找到一些有趣的
+            <a class="go-photos" href="/photos/">照片</a>、文章，和意想不到的事 :D</p>
+            <p> {% for my_page in site.pages %} {% if my_page.title%}
+                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> {% endif %} {% endfor %}</p>
         </div>
         <div class="cover-nav-1">
             <ul>
                 <li>
                     <i class="link-icon sina-wb-icon"></i>
-                    <a href={{site.sina_weibo}} class="btn btn--light-outline">新浪微博</a>
+                    <a href={{site.sina_weibo}}>新浪微博</a>
                 </li>
                 <li>
                     <i class="link-icon lofter-icon"></i>
-                    <a href={{site.lofter}}} class="btn btn--light-outline">Lofter</a>
+                    <a href={{site.lofter}}}>Lofter</a>
                 </li>
             </ul>
         </div>
