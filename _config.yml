@@ -20,3 +20,4 @@ lofter: http://frontlomo.lofter.com/
 flickr: https://www.flickr.com/photos/142560832@N07/?
 # Build settings
 markdown: kramdown
+encoding: utf-8
