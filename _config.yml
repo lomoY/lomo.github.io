@@ -21,3 +21,8 @@ flickr: https://www.flickr.com/photos/142560832@N07/?
 # Build settings
 markdown: kramdown
 encoding: utf-8
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
