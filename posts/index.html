@@ -1,0 +1,21 @@
+---
+layout: default
+title: Article
+permalink: /article/
+description: 一些想法，灵感，小错误，和其它的一些琐碎
+---
+<section>
+    {% for post in site.posts %}
+    <article>
+        <a href="{{ post.url }}">
+            <div class="post-img">
+            </div>
+            <div class="post-content">
+                <h1>{{post.title}}</h1>
+                <div class="post-time">{{post.date}}</div>
+                <div class="post-description">{{post.description}}</div>
+            </div>
+            <a>
+    </article>
+    {% endfor %}
+</section>
