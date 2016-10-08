@@ -1,21 +1,23 @@
 ---
-layout: default
+layout: post
 title: Article
 permalink: /article/
-description: 一些想法，灵感，小错误，和其它的一些琐碎
+description: 一些想法，灵感，小错误，和其它的一些我写的琐碎
 ---
-<section>
+<div class="post-list">
+ <section>
     {% for post in site.posts %}
     <article>
         <a href="{{ post.url }}">
-            <div class="post-img">
+            <div class="post-thumb" style="background-image: url('/assets/images/{{ post.image.thumb}}');">
             </div>
             <div class="post-content">
-                <h1>{{post.title}}</h1>
-                <div class="post-time">{{post.date}}</div>
-                <div class="post-description">{{post.description}}</div>
+                <h1 class="post-title">{{post.title}}</h1>
+                <time class="post-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                <p class="post-description">{{post.description}}</p>
             </div>
             <a>
     </article>
     {% endfor %}
 </section>
+</div>
