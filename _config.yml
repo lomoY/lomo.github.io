@@ -24,3 +24,7 @@ encoding: utf-8
 sass:
   sass_dir: _sass
   style: compressed
+#这个到底是啥。。  
+include:
+  - .htaccess
+  - _pages
