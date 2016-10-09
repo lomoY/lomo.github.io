@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "五环之歌"
+title:  "求赞助，求包养"
 date:   2016-05-28 20:37:07 +0800
-description: 我把车子开上五环!我把车子开上五环!快点把车子开上五环!什么都不管!我就是要上五环~
+description: 我家住在静安寺~
 image:  
   thumb: COM-teaser.jpg
 ---
