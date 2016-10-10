@@ -2,20 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>我的站点还在写。。就是这样
-</description>
+    <description>站点建设中</description>
     <link>http://lomoy.github.io/</link>
     <atom:link href="http://lomoy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2016 22:37:55 +0800</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 22:37:55 +0800</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 23:54:23 +0800</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 23:54:23 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>浅谈微信小程序</title>
-        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这篇文章是写给前端开发人员的。
-目前，小程序仍旧出在内侧测阶段，没有收到邀请码的同志们需要等到开放申请后才能进行正式的注册、开发等。没有内测资格的同志可以通过本文的介绍进行有限制的开发。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+        <description>&lt;p&gt;这篇文章是写给前端开发人员的。目前，小程序仍旧出在内侧测阶段，没有收到邀请码的同志们需要等到开放申请后才能进行正式的注册、开发等。没有内测资格的同志可以通过本文的介绍进行有限制的开发。&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;1.开始&lt;/h2&gt;
 
