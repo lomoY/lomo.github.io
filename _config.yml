@@ -1,15 +1,8 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 email: 414040138@qq.com
 name: Lomo # 姓名，将会在首页显示
-description: > # this means to ignore newlines until "baseurl:"
-  我的站点还在写。。就是这样
+description:  # this means to ignore newlines until "baseurl:"
+  站点建设中
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lomoy.github.io" # the base hostname & protocol for your site
 github_username:  lomoY
@@ -28,3 +21,22 @@ sass:
 include:
   - .htaccess
   - _pages
+
+defaults:
+  # Pages
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: page
+
+  # Blog Articles
+  - scope:
+      path: _posts/article
+      type: posts
+    values:
+      layout: article
+      category: article
+      breadcrumbs:
+        - label: "Blog Article"
+          url: /article/

@@ -6,8 +6,8 @@
 </description>
     <link>http://lomoy.github.io/</link>
     <atom:link href="http://lomoy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 17:52:41 +0800</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 17:52:41 +0800</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 22:37:55 +0800</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 22:37:55 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -31,13 +31,11 @@
 
 </description>
         <pubDate>Sun, 09 Oct 2016 16:24:07 +0800</pubDate>
-        <link>http://lomoy.github.io/jekyll/update/2016/10/09/%E6%B5%85%E8%B0%88%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</link>
-        <guid isPermaLink="true">http://lomoy.github.io/jekyll/update/2016/10/09/%E6%B5%85%E8%B0%88%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</guid>
+        <link>http://lomoy.github.io/article/2016/10/09/%E6%B5%85%E8%B0%88%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</link>
+        <guid isPermaLink="true">http://lomoy.github.io/article/2016/10/09/%E6%B5%85%E8%B0%88%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>article</category>
         
       </item>
     
@@ -59,13 +57,15 @@
 
 </description>
         <pubDate>Wed, 01 Jun 2016 20:37:07 +0800</pubDate>
-        <link>http://lomoy.github.io/jekyll/update/2016/06/01/%E6%88%91%E5%8F%AA%E6%98%AF%E6%98%AF%E6%98%AF%E6%98%AF%E7%9C%8B.html</link>
-        <guid isPermaLink="true">http://lomoy.github.io/jekyll/update/2016/06/01/%E6%88%91%E5%8F%AA%E6%98%AF%E6%98%AF%E6%98%AF%E6%98%AF%E7%9C%8B.html</guid>
+        <link>http://lomoy.github.io/jekyll/update/article/2016/06/01/%E6%88%91%E5%8F%AA%E6%98%AF%E6%98%AF%E6%98%AF%E6%98%AF%E7%9C%8B.html</link>
+        <guid isPermaLink="true">http://lomoy.github.io/jekyll/update/article/2016/06/01/%E6%88%91%E5%8F%AA%E6%98%AF%E6%98%AF%E6%98%AF%E6%98%AF%E7%9C%8B.html</guid>
         
         
         <category>jekyll</category>
         
         <category>update</category>
+        
+        <category>article</category>
         
       </item>
     
@@ -87,9 +87,11 @@
 
 </description>
         <pubDate>Sat, 28 May 2016 20:37:07 +0800</pubDate>
-        <link>http://lomoy.github.io/2016/05/28/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://lomoy.github.io/2016/05/28/welcome-to-jekyll.html</guid>
+        <link>http://lomoy.github.io/article/2016/05/28/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://lomoy.github.io/article/2016/05/28/welcome-to-jekyll.html</guid>
         
+        
+        <category>article</category>
         
       </item>
     

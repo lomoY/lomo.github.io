@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "求赞助，求包养"
 date:   2016-05-28 20:37:07 +0800
-description: 我家住在静安寺~
+description: 我家住在静安寺~~
 image:  
   thumb: COM-teaser.jpg
 ---
