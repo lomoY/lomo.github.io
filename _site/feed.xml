@@ -5,8 +5,8 @@
     <description>站点建设中</description>
     <link>http://lomoy.github.io/</link>
     <atom:link href="http://lomoy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2016 16:28:22 +0800</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2016 16:28:22 +0800</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2016 00:13:16 +0800</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2016 00:13:16 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -27,7 +27,7 @@
 
 &lt;p&gt;优势&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;1.用户体验&lt;em&gt;接近&lt;/em&gt;APP，比单纯的网页有更快的加载速度&lt;/li&gt;
+  &lt;li&gt;1.用户体验接近传统的APP，比单纯的网页有更快的加载速度&lt;/li&gt;
   &lt;li&gt;2.学习周期快，不用学习新的语言。前端工程师就能搞定，帮公司解约了人力的成本&lt;/li&gt;
   &lt;li&gt;3.不需要下载安装，不占容量&lt;/li&gt;
 &lt;/ul&gt;
@@ -40,11 +40,15 @@
   &lt;li&gt;4.像大型的游戏啊之类的，就别想用小程序去替代了。掌机再牛逼也替代不了家庭主机。&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;app&quot;&gt;小程序到底有多接近传统的APP&lt;/h2&gt;
+
+&lt;p&gt;首先让我们来看一个网上流传的视频，视频中的小程序由一个具有拿到内测号的team所开发&lt;/p&gt;
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMTczMzk4NTgwOA==/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+&lt;p&gt;&amp;lt;/embed&amp;gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;section-2&quot;&gt;最后&lt;/h2&gt;
 
 &lt;p&gt;小程序不用安装就能使用的这个概念，谷歌很早就有了。。。&lt;/p&gt;
-
-&lt;div style=&quot;background-image: url('http://image163-c.poco.cn/mypoco/myphoto/20100728/23/5558740720100728234352018.jpg');&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;微信’小程序’恰好找到了资金与功能的一个平衡点。&lt;/p&gt;
 
