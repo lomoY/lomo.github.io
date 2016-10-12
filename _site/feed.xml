@@ -5,23 +5,57 @@
     <description>站点建设中</description>
     <link>http://lomoy.github.io/</link>
     <atom:link href="http://lomoy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 15:38:23 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 15:38:23 +0800</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2016 16:28:22 +0800</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2016 16:28:22 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>浅谈微信小程序</title>
-        <description>&lt;p&gt;这篇文章主要写给未来的微信小程序开发人员，基本上也就是现在的前端开发人员。
-本文主要讲述微信小程序的特点，我们为什么不在移动端直接调用网页？为什么不做一个IOS或者Android的APP？微信小程序和公众号有什么区别？微信小程序能给产品带来什么不一样的变化？…&lt;/p&gt;
+        <title>微信小程序导论</title>
+        <description>&lt;p&gt;本文主要从产品的角度让你相对全面的了解‘微信小程序’是什么，这也是为什么将‘微信小程序导论’作为文章名的原因。代码层的部分将用很少的篇幅进行概括，因此，不论你是产品经理，微信运营，还是前端开发工程师都能无障碍地进行本文的阅读。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;小程序诞生的背景&lt;/h2&gt;
+
+&lt;p&gt;移动应用的欣欣向荣使得APP开发空前火热，现有的APP基数非常大，新晋的APP也是层出不穷，撇开新老APP之间的同质性差异性等问题，APP的总量就像国庆时长城上的游客 ———— 多的一笔！&lt;/p&gt;
+
+&lt;p&gt;但是，一款APP的推广成本依然居高不下，而花了大价钱推广，最后又能够吸引用户、留住用户的APP、保持一个使用率的APP又很少。&lt;/p&gt;
+
+&lt;p&gt;比起有钱的公司，手头比较紧的公司就将产品从APP上搬到了微信公众号（包括了订阅号、服务号、企业号）上去实现，但是公众号的用户体验很难达到他们的预期。举例而言，如果你想买一包方便面，你会选择打开微信进入一个公众号购买，还是打开淘宝？后者应该更加符合用户的行为，公众号本身给人的印象更像是用来传递信息的。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;什么是小程序&lt;/h2&gt;
+
+&lt;p&gt;根据张小龙上的这段话。以及我自己的理解，小程序本身并不是一个APP，只是用’一堆包了一层APP模仿组件的移动端页面去模仿原生的APP‘。句话包含了以下几点内容，我同时概括成优势与劣势：&lt;/p&gt;
+
+&lt;p&gt;优势&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.用户体验&lt;em&gt;接近&lt;/em&gt;APP，比单纯的网页有更快的加载速度&lt;/li&gt;
+  &lt;li&gt;2.学习周期快，不用学习新的语言。前端工程师就能搞定，帮公司解约了人力的成本&lt;/li&gt;
+  &lt;li&gt;3.不需要下载安装，不占容量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;劣势：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.专业化高的APP功能，小程序无法实现（不知道为什么）&lt;/li&gt;
+  &lt;li&gt;2.‘小程序’不会像公众号这样主动推送信息给用户，只有用户想到了才回去打开。&lt;/li&gt;
+  &lt;li&gt;3.适合使用频率低，功能单一，具有内容和服务属性的产品&lt;/li&gt;
+  &lt;li&gt;4.像大型的游戏啊之类的，就别想用小程序去替代了。掌机再牛逼也替代不了家庭主机。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;最后&lt;/h2&gt;
+
+&lt;p&gt;小程序不用安装就能使用的这个概念，谷歌很早就有了。。。&lt;/p&gt;
+
+&lt;div style=&quot;background-image: url('http://image163-c.poco.cn/mypoco/myphoto/20100728/23/5558740720100728234352018.jpg');&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;微信’小程序’恰好找到了资金与功能的一个平衡点。&lt;/p&gt;
 
 &lt;p&gt;关于微信小程序如框架、api、组件、工具等的具体细节建议直接登录&lt;a href=&quot;http://mp.weixin.qq.com/debug/wxadoc/dev/&quot;&gt;微信小程序官方网站&lt;/a&gt;学习，本文不做重复介绍。&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;准备工作&lt;/h2&gt;
+&lt;h2 id=&quot;section-3&quot;&gt;准备工作&lt;/h2&gt;
 &lt;p&gt;下载安装：&lt;a href=&quot;http://wxopen.notedown.cn/devtools/download.html&quot;&gt;微信开发者工具&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;开发、调试都会在这里进行，很方便&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;文件类型&amp;amp;目录结构&lt;/h2&gt;
+&lt;h2 id=&quot;section-4&quot;&gt;文件类型&amp;amp;目录结构&lt;/h2&gt;
 &lt;p&gt;文件类型&lt;/p&gt;
 
 &lt;ul&gt;
@@ -33,7 +67,7 @@
 
 &lt;p&gt;目录结构&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;1.开始&lt;/h2&gt;
+&lt;h2 id=&quot;section-5&quot;&gt;1.开始&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/debug/wxadoc/dev/&quot;&gt;微信小程序官方网站&lt;/a&gt;&lt;/p&gt;
 
