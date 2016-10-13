@@ -1,0 +1,3 @@
+[submodule "lomosite-images"]
+	path = lomosite-images
+	url = https://github.com/lomoY/lomosite-images.git
