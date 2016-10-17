@@ -1,11 +1,11 @@
 ---
-title:  "微信小程序导论"
+title:  "微信小程序胡说八道"
 date:   2016-10-09 16:24:07 +0800
 description: "2016年9月22日，微信公众平台对200个服务号发送了小程序内测邀请，微信的神话是否将在此继续延续。
 本文内容主要针对前端开发人员。"
 image: 
   thumb: wechat-app-thumb.jpg
-  main: wechat-app-main.jpg
+  main: wechat-overview-1600.jpg
 ---
 {% include toc.html %}
 

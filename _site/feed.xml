@@ -5,12 +5,12 @@
     <description>站点建设中</description>
     <link>http://lomoy.github.io/</link>
     <atom:link href="http://lomoy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Oct 2016 01:31:01 +0800</pubDate>
-    <lastBuildDate>Thu, 13 Oct 2016 01:31:01 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2016 20:38:45 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2016 20:38:45 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>微信小程序导论</title>
+        <title>微信小程序胡说八道</title>
         <description>&lt;nav class=&quot;js-toc toc&quot;&gt;
   &lt;h4 class=&quot;toc__title&quot;&gt;Contents&lt;/h4&gt;
 &lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
@@ -74,8 +74,8 @@
 
 </description>
         <pubDate>Sun, 09 Oct 2016 16:24:07 +0800</pubDate>
-        <link>http://lomoy.github.io/article/2016/10/09/%E6%B5%85%E8%B0%88%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</link>
-        <guid isPermaLink="true">http://lomoy.github.io/article/2016/10/09/%E6%B5%85%E8%B0%88%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</guid>
+        <link>http://lomoy.github.io/article/2016/10/09/wechat-overview.html</link>
+        <guid isPermaLink="true">http://lomoy.github.io/article/2016/10/09/wechat-overview.html</guid>
         
         
         <category>article</category>

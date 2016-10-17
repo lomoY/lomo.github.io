@@ -10,6 +10,8 @@ sina_weibo: http://weibo.com/p/1005052598417474/home?from=page_100505&mod=TAB&is
 lofter: http://frontlomo.lofter.com
 flickr: https://www.flickr.com/photos/142560832@N07/?
 # Build settings
+
+# kramdown 不能写成Kramdown or KramDown.是由Ruby写的一个库，支持标准Markdown语法
 markdown: kramdown
 kramdown:
   toc_levels     : 1..3

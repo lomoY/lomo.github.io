@@ -39,9 +39,18 @@ a {
         margin-top: 18px;
     }
 }
-
-
+/*layout:article*/ 
 /*文章页面样式*/
+
+.page-main-picture{
+
+    margin: 0 -10px 20px;
+    img{
+        border-radius:6px;
+        width: 100%;
+        max-width: 1200px;
+    }
+}
 
 .post-content {
     a {
