@@ -10,7 +10,7 @@ navshow: true
 
 简短的信息可以通过[新浪微博](http://weibo.com/p/1005052598417474/home?from=page_100505&mod=TAB&is_all=1#place)与我交流. 对于任何'一言难尽'的问题，请填写下方的表格告诉我，我将通过邮件回复您。 
 
-最后，约我拍照，请我吃饭的方式也同上。
+最后，约我拍照，请我吃饭的方式也同上...。
 <script>
 { % include wufoo.js %
 }
